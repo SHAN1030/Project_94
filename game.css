@@ -1,0 +1,44 @@
+body
+{
+	background: lightblue;
+	font-weight: bold;
+}
+
+    .jumbotron
+	{
+        background-size: contain;
+		background-image: url(https://static.vecteezy.com/system/resources/previews/000/106/075/original/free-math-symbols-vector.jpg);
+    }
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+display: none;
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
